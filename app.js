@@ -70,7 +70,7 @@ app.use("/campgrounds/:id/comments",commentRoutes);
 
 
 
-app.listen(21312,function(){
+app.listen(process.env.PORT || 5000,function(){
 	console.log("yelpcamp server has started");
 });
 
