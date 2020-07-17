@@ -20,7 +20,7 @@ var Schema = mongoose.Schema;
 
 ///connecting mongoose here
 
-mongoose.connect('mongodb://localhost:27017/yelp_camp', {
+mongoose.connect("mongodb+srv://yelpcamp:yelpcamp@cluster0.3ze9y.mongodb.net/<dbname>?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
