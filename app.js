@@ -43,7 +43,7 @@ app.use(methodOverride("_method"));
 //seedDB();
 
 app.use(require("express-session")({
-	secret:"once again rusty here",
+	secret:"",
 	resave:false,
 	saveUninitialized:false
 }));
